@@ -61,6 +61,7 @@ datosArreglo();
 }
 datosArreglo();
 */
+/*
 //for each
 const datosArreglo= () => {
     array.forEach((subArray, datosIndex)=> {
@@ -70,3 +71,15 @@ const datosArreglo= () => {
 });
 }
 datosArreglo();
+*/
+//do-while
+let i = 0
+do{
+    console.log(`Array${i}`)   
+}
+while(i<A.length){
+    while(0<A[i].length){
+        console.log(A[i][0])
+        0++
+    }
+i++}
