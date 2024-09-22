@@ -12,7 +12,7 @@ class Persona {
         this._horario = horario;
     }
 }
-//esta clase se llama herencia de lamprimera clase
+//esta clase se llama herencia de la primera clase
     class Alumno extends Persona {
         constructor(nombre,apellido,horario, matricula, carrera, sementre) {
             super(nombre,apellido,horario);
