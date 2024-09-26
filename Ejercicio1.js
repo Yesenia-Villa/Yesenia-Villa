@@ -10,7 +10,7 @@ constructor(nombre,edad, sexo, direccion ,telefono ){
     this._array =[];
 }
 añadir (){
-    let tamaño =parseInt(promptc("ingrese el numero de empleadps a agregar:"));
+    let tamaño =parseInt(promptc("ingrese el numero de empleados a agregar:"));
     for(let i=0; i<tamaño; i++){
         let nombre=promptc("ingrese el nombre del empleados a gregar:");
         let edad = promptc("ingrese la edad:");
