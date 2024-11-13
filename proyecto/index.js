@@ -3,9 +3,10 @@ const express=require("express");
 const bodyparser=require("body-parser");
 const cors=require("cors");
 
+const informacion= require('./bd/info');
 
 const app=express();
-const port=3001;
+const port=4000;
 
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(bodyparser.json());
@@ -24,5 +25,5 @@ app.post("/guardar",(req,res)=>{
     
 });
 app.listen(port,()=>{
-    console.log("servidor ejecutado en el puerto 3001");
+    console.log("servidor ejecutado en el puerto 4000");
 });
